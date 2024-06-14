@@ -6,8 +6,8 @@ package vehiculo;
  * @author 
  */
 public class Main {
-      public static void main(String[] args) {
-        JSJunio24 miVehiculoXXX2223;
+      public static void main(String[] args, JSJunio24 miVehiculoXXX2223) {
+        operativaVehiculosXXX2223();
         int stockActual;
         
         miVehiculoXXX2223 = new JSJunio24("Seat",18000,100);
@@ -32,6 +32,10 @@ public class Main {
         System.out.println("El stock actual es "+ stockActual );
         
     
+    }
+
+    public static void operativaVehiculosXXX2223() {
+        JSJunio24 miVehiculoXXX2223;
     }
 
 }
