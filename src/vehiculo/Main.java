@@ -6,12 +6,11 @@ package vehiculo;
  * @author 
  */
 public class Main {
-    
-      public static void main(String[] args) {
-        VehiculoXXX2223 miVehiculoXXX2223;
+      public static void main(String[] args, JSJunio24 miVehiculoXXX2223) {
+        operativaVehiculosXXX2223();
         int stockActual;
         
-        miVehiculoXXX2223 = new VehiculoXXX2223("Seat",18000,100);
+        miVehiculoXXX2223 = new JSJunio24("Seat",18000,100);
         try 
         {
             System.out.println("Venta de Vehiculos");
@@ -31,6 +30,12 @@ public class Main {
         }
         stockActual = miVehiculoXXX2223.obtenerStock();
         System.out.println("El stock actual es "+ stockActual );
+        
+    
+    }
+
+    public static void operativaVehiculosXXX2223() {
+        JSJunio24 miVehiculoXXX2223;
     }
 
 }
