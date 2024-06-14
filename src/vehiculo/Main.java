@@ -7,10 +7,20 @@ package vehiculo;
  */
 public class Main {
       public static void main(String[] args, JSJunio24 miVehiculoXXX2223) {
+          /**
+           * Creamos el metodo de operativa
+           */
         operativaVehiculosXXX2223();
         int stockActual;
-        
+        /**
+         * creamos un nuevo elemento
+         */
         miVehiculoXXX2223 = new JSJunio24("Seat",18000,100);
+       
+        
+        /**
+         * controlamos las excepciones
+         */
         try 
         {
             System.out.println("Venta de Vehiculos");
@@ -19,6 +29,9 @@ public class Main {
         {
             System.out.print("Fallo al vender");
         }
+        /**
+         * Controlamos si falla y si no falla, es decir las excepciones
+         */
         
         try
         {
