@@ -101,12 +101,22 @@ public class JSJunio24 {
     /* Método para comprar vehiculos. Modifica el stock.
      * Este método va a ser probado con Junit
      */
+     /**
+      * controlamos las excepciones del metodo comprar
+      * @param cantidad
+      * @throws Exception 
+      */
     public void comprar(int cantidad) throws Exception
     {
         if (cantidad<0)
             throw new Exception("No se puede comprar un nº negativo de vehiculos");
         setStock(getStock() + cantidad);
     }
+    /**
+     * controlamos las excepciones del metodo vender
+     * @param cantidad
+     * @throws Exception 
+     */
 
     public void vender (int cantidad) throws Exception
     {
@@ -117,6 +127,7 @@ public class JSJunio24 {
         setStock(getStock() - cantidad);
         
     }
+    
     
 }  
    
