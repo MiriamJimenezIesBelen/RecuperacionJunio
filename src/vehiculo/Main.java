@@ -8,10 +8,10 @@ package vehiculo;
 public class Main {
     
       public static void main(String[] args) {
-        VehiculoXXX2223 miVehiculoXXX2223;
+        JSJunio24 miVehiculoXXX2223;
         int stockActual;
         
-        miVehiculoXXX2223 = new VehiculoXXX2223("Seat",18000,100);
+        miVehiculoXXX2223 = new JSJunio24("Seat",18000,100);
         try 
         {
             System.out.println("Venta de Vehiculos");
